@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Trips.Booking.Core.Dtos;
 using Trips.Booking.Core.Entities;
 using Trips.Booking.Core.Interfaces;
 using Trips.Booking.Infrastructure.Data;
@@ -28,6 +30,30 @@ namespace Trips.Booking.API.Controllers
         public async Task<ActionResult<Trip>> GetTrip(int id)
         {
             return await _repo.GetTripByIdAsync(id);
+        }
+
+        [HttpPost("create")]
+        public async Task<ActionResult<Trip>> CreateTrip(TripDto model)
+        {
+            await _repo.CreateTripAsync(model);
+
+            return Ok(new { message = "Trip created" });
+        }
+
+        [HttpPut("update/{id}")]
+        public async Task<ActionResult<Trip>> UpdateTrip(int id, TripDto model)
+        {
+            await _repo.UpdateTripAsync(id, model);
+
+            return Ok(new { message = "Trip updated" });
+        }
+
+        [HttpDelete("delete/{id}")]
+        public async Task<ActionResult<Trip>> DeleteTrip(int id)
+        {
+            await _repo.DeleteTripAsync(id);
+
+            return Ok(new { message = "Trip deleted" });
         }
     }
 }

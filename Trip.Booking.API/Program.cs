@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using Trips.Booking.Core.Interfaces;
 using Trips.Booking.Infrastructure.Data;
 using Trips.Booking.Infrastructure.Helpers;
+using AutoMapper;
+using Trips.Booking.API.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(typeof(MappingProfiles));
 builder.Services.AddDbContext<TripContext>(options => options.UseInMemoryDatabase("Trips"));
 builder.Services.AddScoped<ITripRepository, TripRepository>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();

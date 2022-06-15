@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Dwj4uYFUnDVNj4rCMvMhQqMs65UXXncQQYySxG6xsPICFpkNSFlsHrTmaeMy8Hz06TOuF5PHRACj2nUzlID4jA==",
+  "dgSpecHash": "PxgMm3XT3AH9h6UI8WGAq6IZ3FdA90OMiN0wtWFjbuoJ66Ah5zJz4gWbpIhygyCWnQju9SUgL02t9XwmRMLpgg==",
   "success": true,
   "projectFilePath": "C:\\Users\\krzys\\source\\repos\\Trip.Booking.API\\Infrastructure\\Trips.Booking.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\krzys\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\krzys\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\krzys\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
     "C:\\Users\\krzys\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.6\\microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",
     "C:\\Users\\krzys\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.6\\microsoft.entityframeworkcore.analyzers.6.0.6.nupkg.sha512",

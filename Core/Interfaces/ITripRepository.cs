@@ -1,4 +1,5 @@
-﻿using Trips.Booking.Core.Entities;
+﻿using Trips.Booking.Core.Dtos;
+using Trips.Booking.Core.Entities;
 
 namespace Trips.Booking.Core.Interfaces
 {
@@ -6,5 +7,8 @@ namespace Trips.Booking.Core.Interfaces
     {
         Task<Trip> GetTripByIdAsync(int id);
         Task<IReadOnlyList<Trip>> GetTripsAsync();
+        Task CreateTripAsync(TripDto model);
+        Task UpdateTripAsync(int id, TripDto trip);
+        Task DeleteTripAsync(int id);
     }
 }

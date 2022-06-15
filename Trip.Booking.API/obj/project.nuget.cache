@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3EBSFJ4X1eL/8UmZ1Eg4xH6gecpsT2kxvFXn5nZ40ZaKSwIvi6VopPdwW6MKELoM7rUWEIL+2cxV4ZPn6uXi+A==",
+  "dgSpecHash": "ifd0+xrSLifK/j8hoKEerT4a0dm9F/eT1GFxU0dSI7DBddiBY7udTUqfLg5ogRKj7IzXjCteR4lRScUyKMFwMA==",
   "success": true,
   "projectFilePath": "C:\\Users\\krzys\\source\\repos\\Trip.Booking.API\\Trip.Booking.API\\Trips.Booking.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\krzys\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\krzys\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\krzys\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\krzys\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\krzys\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
     "C:\\Users\\krzys\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.6\\microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",
     "C:\\Users\\krzys\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.6\\microsoft.entityframeworkcore.analyzers.6.0.6.nupkg.sha512",
