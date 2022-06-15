@@ -1,0 +1,26 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Feel the wave",
+    "description": "Come with us to Spain for a surfing adventure",
+    "startdate": "2018-12-10T13:45:00.000Z",
+    "travelersamount": 3,
+    "country": "Spain"
+  },
+  {
+    "id": 2,
+    "name": "Hiking in the wild",
+    "description": "Come with us to Peru for a hiking adventure",
+    "startdate": "2018-12-10T13:45:00.000Z",
+    "travelersamount": 3,
+    "country": "Peru"
+  },
+  {
+    "id": 3,
+    "name": "Slide from the top",
+    "description": "Come with us to Italy for a snowboarding adventure",
+    "startdate": "2018-12-10T13:45:00.000Z",
+    "travelersamount": 3,
+    "country": "Italy"
+  }
+]

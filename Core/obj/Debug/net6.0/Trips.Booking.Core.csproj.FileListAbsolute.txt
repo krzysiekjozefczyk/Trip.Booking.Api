@@ -1,0 +1,12 @@
+C:\Users\krzys\source\repos\Trip.Booking.API\Core\bin\Debug\net6.0\Trips.Booking.Core.deps.json
+C:\Users\krzys\source\repos\Trip.Booking.API\Core\bin\Debug\net6.0\Trips.Booking.Core.dll
+C:\Users\krzys\source\repos\Trip.Booking.API\Core\bin\Debug\net6.0\Trips.Booking.Core.pdb
+C:\Users\krzys\source\repos\Trip.Booking.API\Core\obj\Debug\net6.0\Trips.Booking.Core.csproj.AssemblyReference.cache
+C:\Users\krzys\source\repos\Trip.Booking.API\Core\obj\Debug\net6.0\Trips.Booking.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krzys\source\repos\Trip.Booking.API\Core\obj\Debug\net6.0\Trips.Booking.Core.AssemblyInfoInputs.cache
+C:\Users\krzys\source\repos\Trip.Booking.API\Core\obj\Debug\net6.0\Trips.Booking.Core.AssemblyInfo.cs
+C:\Users\krzys\source\repos\Trip.Booking.API\Core\obj\Debug\net6.0\Trips.Booking.Core.csproj.CoreCompileInputs.cache
+C:\Users\krzys\source\repos\Trip.Booking.API\Core\obj\Debug\net6.0\Trips.Booking.Core.dll
+C:\Users\krzys\source\repos\Trip.Booking.API\Core\obj\Debug\net6.0\refint\Trips.Booking.Core.dll
+C:\Users\krzys\source\repos\Trip.Booking.API\Core\obj\Debug\net6.0\Trips.Booking.Core.pdb
+C:\Users\krzys\source\repos\Trip.Booking.API\Core\obj\Debug\net6.0\ref\Trips.Booking.Core.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZJ50erSBOIlAh29ALWl7W2jJOfcAOHIPBpk+ohCqctE=",
+  "Source": "Trips.Booking.API",
+  "BasePath": "_content/Trips.Booking.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

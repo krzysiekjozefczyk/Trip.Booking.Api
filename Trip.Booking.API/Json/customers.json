@@ -1,0 +1,23 @@
+﻿[
+  {
+    "id": 1,
+    "name": "",
+    "lastname": "Parker",
+    "email": "spiderman@mail.com",
+    "tripid": 1
+  },
+  {
+    "id": 2,
+    "name": "Peter",
+    "lastname": "Parker",
+    "email": "spiderman@mail.com",
+    "tripid": 2
+  },
+  {
+    "id": 3,
+    "name": "Peter",
+    "lastname": "Parker",
+    "email": "spiderman@mail.com",
+    "tripid": 3
+  }
+]
