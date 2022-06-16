@@ -18,9 +18,6 @@ namespace Trips.Booking.Infrastructure.Data.Configuration
             builder.Property(x => x.StartDate)
                 .IsRequired();
 
-            builder.Property(x => x.TravelersAmount)
-                .IsRequired();
-
             builder.Property(x => x.Country)
                 .IsRequired();
         }

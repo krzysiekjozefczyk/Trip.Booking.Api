@@ -1,4 +1,5 @@
-﻿using Trips.Booking.Core.Entities;
+﻿using Trips.Booking.Core.Dtos;
+using Trips.Booking.Core.Entities;
 
 namespace Trips.Booking.Core.Interfaces
 {
@@ -6,5 +7,7 @@ namespace Trips.Booking.Core.Interfaces
     {
         Task<Customer> GetCustomerByIdAsync(int id);
         Task<IReadOnlyList<Customer>> GetCustomersAsync();
+        Task RegisterAsync(CustomerDto model);
+        Task UnregisterAsync(string email);
     }
 }

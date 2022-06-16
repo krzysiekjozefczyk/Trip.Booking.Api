@@ -1,4 +1,7 @@
-﻿namespace Trips.Booking.Core.Dtos
+﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
+
+namespace Trips.Booking.Core.Dtos
 {
     public class TripDto
     {

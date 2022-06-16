@@ -30,7 +30,7 @@ namespace Trips.Booking.Infrastructure.Data
         public async Task CreateTripAsync(TripDto model)
         {
             if (_context.Trips.Any(x => x.Name == model.Name))
-                throw new ApplicationException($"Name {model.Name} is already taken ");
+                throw new ApplicationException($"Name {model.Name} is already taken.");
 
             var trip = _mapper.Map<TripDto, Trip>(model);
 
@@ -43,9 +43,9 @@ namespace Trips.Booking.Infrastructure.Data
             var trip = await GetTripByIdAsync(id);
 
             if(model.Name != trip.Name && _context.Trips.Any(x => x.Name == model.Name))
-                throw new ApplicationException($"Name {model.Name} is already taken ");
+                throw new ApplicationException($"Name {model.Name} is already taken.");
 
-            _mapper.Map(model, trip);
+            _mapper.Map<TripDto, Trip>(model);
             _context.Trips.Update(trip);
             await _context.SaveChangesAsync();
         }

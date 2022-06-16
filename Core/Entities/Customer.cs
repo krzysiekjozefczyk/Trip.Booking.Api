@@ -8,6 +8,7 @@ namespace Trips.Booking.Core.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
+        public int TravelersAmount { get; set; }
         public string Email { get; set; }
         public Trip Trip { get; set; }  
         public int TripId { get; set; }

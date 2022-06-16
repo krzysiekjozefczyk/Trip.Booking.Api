@@ -21,7 +21,12 @@ namespace Trips.Booking.Infrastructure.Data.Configuration
                 .IsRequired()
                 .HasMaxLength(20);
 
-            builder.Property(x => x.Email).IsRequired();
+            builder.Property(x => x.Email)
+                .IsRequired();
+
+            builder.Property(x => x.TravelersAmount)
+                .IsRequired();
+
             builder.HasOne(x => x.Trip).WithMany()
                 .HasForeignKey(x => x.TripId);
         }

@@ -1,9 +1,9 @@
 ﻿[
   {
     "id": 1,
-    "name": "",
-    "lastname": "Parker",
-    "email": "spiderman@mail.com",
+    "name": "John",
+    "lastname": "Snow",
+    "email": "JohnSnow@mail.com",
     "tripid": 1
   },
   {
@@ -15,7 +15,7 @@
   },
   {
     "id": 3,
-    "name": "Peter",
+    "name": "",
     "lastname": "Parker",
     "email": "spiderman@mail.com",
     "tripid": 3
