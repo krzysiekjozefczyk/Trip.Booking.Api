@@ -16,6 +16,12 @@ builder.Services.AddAutoMapper(typeof(MappingProfiles));
 builder.Services.AddDbContext<TripContext>(options => options.UseInMemoryDatabase("Trips"));
 builder.Services.AddScoped<ITripRepository, TripRepository>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddSwaggerGen(c => {
+    c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
+    c.IgnoreObsoleteActions();
+    c.IgnoreObsoleteProperties();
+    c.CustomSchemaIds(type => type.FullName);
+});
 
 var app = builder.Build();
 SeedDatabase(app);
