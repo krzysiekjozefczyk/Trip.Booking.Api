@@ -1,10 +1,7 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
 using Trips.Booking.Core.Dtos;
 using Trips.Booking.Core.Entities;
 using Trips.Booking.Core.Interfaces;
-using Trips.Booking.Infrastructure.Data;
 
 namespace Trips.Booking.API.Controllers
 {

@@ -10,6 +10,7 @@ namespace Trips.Booking.Core.Entities
         [Required]
         public string Name { get; set; }
         [Required]
+        [JsonIgnore]
         public string Description { get; set; }
         public DateTime StartDate { get; set; }
         [Required]

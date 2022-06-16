@@ -9,13 +9,11 @@ namespace Trips.Booking.Infrastructure.Data
     public class CustomerRepository : ICustomerRepository
     {
         private TripContext _context;
-        private readonly ITripRepository _tripRepository;
         private readonly IMapper _mapper;
 
-        public CustomerRepository(TripContext context, ITripRepository tripRepository, IMapper mapper)
+        public CustomerRepository(TripContext context, IMapper mapper)
         {
             _context = context;
-            _tripRepository = tripRepository;
             _mapper = mapper;
         }
 

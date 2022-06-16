@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace Trips.Booking.Core.Dtos
+﻿namespace Trips.Booking.Core.Dtos
 {
     public class CustomerDto
     {
