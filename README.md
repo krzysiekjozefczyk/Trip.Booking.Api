@@ -35,3 +35,5 @@ https://tripsbookingapi.azurewebsites.net/api/customers/unregister/{email}<br/>
   }
 ]
   ```
+Example output:
+![image](https://user-images.githubusercontent.com/16777051/174497921-6c9c5cc8-00cf-43da-900b-226d8537247b.png)
