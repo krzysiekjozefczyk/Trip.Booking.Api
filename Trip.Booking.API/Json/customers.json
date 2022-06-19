@@ -3,21 +3,21 @@
     "id": 1,
     "name": "John",
     "lastname": "Snow",
-    "email": "JohnSnow@mail.com",
-    "tripid": 1
+    "tripname": "Feel the wave",
+    "email": "JohnSnosw@mail.com"
   },
   {
     "id": 2,
     "name": "Peter",
     "lastname": "Parker",
-    "email": "spiderman@mail.com",
-    "tripid": 2
+    "tripname": "Hiking in the wild",
+    "email": "spiderman@mail.com"
   },
   {
     "id": 3,
-    "name": "",
-    "lastname": "Parker",
-    "email": "spiderman@mail.com",
-    "tripid": 3
+    "name": "Michael",
+    "lastname": "Jordan",
+    "tripname": "Slide from the top",
+    "email": "jordan@mail.com"
   }
 ]
