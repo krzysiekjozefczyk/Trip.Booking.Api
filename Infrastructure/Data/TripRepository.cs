@@ -53,7 +53,7 @@ namespace Trips.Booking.Infrastructure.Data
             if(model.Name != trip.Name && _context.Trips.Any(x => x.Name == model.Name))
                 throw new ApplicationException($"Name {model.Name} is already taken.");
 
-            _mapper.Map<TripDto, Trip>(model);
+            _mapper.Map(model, trip);
             _context.Trips.Update(trip);
             await _context.SaveChangesAsync();
         }
