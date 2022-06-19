@@ -4,6 +4,7 @@ https://tripsbookingapi.azurewebsites.net/api/trips <br/>
 https://tripsbookingapi.azurewebsites.net/api/trips/create<br/>
 https://tripsbookingapi.azurewebsites.net/api/trips/update<br/>
 https://tripsbookingapi.azurewebsites.net/api/trips/delete<br/>
+https://tripsbookingapi.azurewebsites.net/api/trips/?country=Spain
 
 Example json file for trip request:
 ```json
