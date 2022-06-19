@@ -19,8 +19,8 @@ namespace Trips.Booking.API.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Customer>>> GetCustomers()
         {
-            var trips = await _repo.GetCustomersAsync();
-            return Ok(trips);
+            var customers = await _repo.GetCustomersAsync();
+            return Ok(customers);
         }
 
         [HttpGet("{id}")]

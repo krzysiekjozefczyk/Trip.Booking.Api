@@ -4,20 +4,27 @@
     "name": "John",
     "lastname": "Snow",
     "tripname": "Feel the wave",
-    "email": "JohnSnosw@mail.com"
+    "email": "JohnSnosw@mail.com",
+    "travelersamount": 1,
+    "tripid": 2
+
   },
   {
     "id": 2,
     "name": "Peter",
     "lastname": "Parker",
     "tripname": "Hiking in the wild",
-    "email": "spiderman@mail.com"
+    "email": "spiderman@mail.com",
+    "travelersamount": 3,
+    "tripid": 1
   },
   {
     "id": 3,
     "name": "Michael",
     "lastname": "Jordan",
     "tripname": "Slide from the top",
-    "email": "jordan@mail.com"
+    "email": "jordan@mail.com",
+    "travelersamount": 2,
+    "tripid": 3
   }
 ]
