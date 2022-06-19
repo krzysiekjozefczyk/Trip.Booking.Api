@@ -14,7 +14,6 @@ Example json file for trip request:
     "name": "Feel the wave",
     "description": "Come with us to Spain for a surfing adventure",
     "startdate": "2018-12-10",
-    "travelersamount": 3,
     "country": "Spain"
   }
 ]
@@ -31,7 +30,8 @@ https://tripsbookingapi.azurewebsites.net/api/customers/unregister/{email}<br/>
     "name": "John",
     "lastname": "Snow",
     "tripname": "Feel the wave",
-    "email": "JohnSnosw@mail.com"
+    "email": "JohnSnosw@mail.com",
+     "travelersamount": 3
   }
-  ]
+]
   ```
