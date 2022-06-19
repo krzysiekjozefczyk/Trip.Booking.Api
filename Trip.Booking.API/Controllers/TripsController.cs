@@ -17,9 +17,9 @@ namespace Trips.Booking.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Trip>>> GetTrips()
+        public async Task<ActionResult<List<Trip>>> GetTrips(string country)
         {
-            var trips = await _repo.GetTripsAsync();
+            var trips = await _repo.GetTripsAsync(country);
             return Ok(trips);
         } 
 

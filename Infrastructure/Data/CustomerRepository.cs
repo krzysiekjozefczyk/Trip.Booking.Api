@@ -20,7 +20,7 @@ namespace Trips.Booking.Infrastructure.Data
         public async Task<Customer> GetCustomerByIdAsync(int id)
         {
             return await _context.Customers
-                .Include(x => x.Trip).Where(x => x.Trip != null)
+                .Include(x => x.Trip)
                 .FirstOrDefaultAsync(x => x.Id == id);
         }
 

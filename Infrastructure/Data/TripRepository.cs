@@ -22,9 +22,17 @@ namespace Trips.Booking.Infrastructure.Data
             return await _context.Trips.FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public async Task<IReadOnlyList<Trip>> GetTripsAsync()
+        public async Task<IReadOnlyList<Trip>> GetTripsAsync(string country)
         {
-            return await _context.Trips.ToListAsync();
+            if(country != null)
+                {
+                    return await _context.Trips
+                        .Where(x => x.Country == country)
+                        .ToListAsync();
+                }
+
+            return await _context.Trips
+                        .ToListAsync();
         }
 
         public async Task CreateTripAsync(TripDto model)
